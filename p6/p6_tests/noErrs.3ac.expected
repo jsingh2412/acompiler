@@ -1,0 +1,46 @@
+[BEGIN GLOBALS]
+func
+main
+str_0 "string"
+[END GLOBALS]
+[BEGIN func LOCALS]
+cond (formal arg of 8 bytes)
+cond2 (formal arg of 8 bytes)
+a (local var of 8 bytes)
+b (local var of 8 bytes)
+t (local var of 8 bytes)
+t (local var of 8 bytes)
+tmp0 (tmp var of 8 bytes)
+[END func LOCALS]
+fun_func:   enter func
+            getarg 1 [cond]
+            getarg 2 [cond2]
+            [a] := 4
+            [a] := [a] ADD64 1
+            WRITE str_0
+            [tmp0] := NOT64 1
+            IFZ [tmp0] GOTO lbl_1
+            [b] := [b] SUB64 1
+lbl_1:      nop
+            IFZ [cond] GOTO lbl_2
+            [t] := 5
+            goto lbl_3
+lbl_2:      nop
+            [t] := 0
+lbl_3:      nop
+lbl_4:      nop
+            IFZ [cond2] GOTO lbl_5
+            [cond2] := 0
+            goto lbl_4
+lbl_5:      nop
+            setret [a]
+            goto lbl_0
+lbl_0:      leave func
+[BEGIN main LOCALS]
+tmp0 (tmp var of 8 bytes)
+[END main LOCALS]
+main:       enter main
+            setarg 1 1
+            setarg 2 0
+            call func
+lbl_6:      leave main

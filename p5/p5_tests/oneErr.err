@@ -1,0 +1,4 @@
+FATAL [5,3]-[5,6]: Invalid assignment operation
+FATAL [4,5]-[4,6]: Non-bool expression used as a condition
+FATAL [7,9]-[7,10]: Bad return value
+Type Analysis Failed

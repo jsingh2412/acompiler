@@ -1,0 +1,3 @@
+FATAL [2,2]-[2,3]: Invalid type in declaration.
+FATAL [3,2]-[3,3]: Invalid type in declaration.
+Name Analysis Failed

@@ -1,0 +1,5 @@
+STRINGLITERAL:"this is a string!" [2,1]
+ID:this [5,1]
+INTLITERAL:0 [5,6]
+INTLITERAL:982323 [5,28]
+EOF [5,35]

@@ -1,0 +1,7 @@
+Bad path p5_test/oneErr.dm
+Usage: dmc <infile> [-u <unparseFile>]: Output canonical program form
+ [-p]: Parse the input to check syntax
+ [-t <tokensFile>]: Output tokens to <tokensFile>
+ [-n <nameFile>]: Output canonical form with bindings to <nameFile>
+ [-c]: Check well-typedness of the input program
+
