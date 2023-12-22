@@ -1,5 +1,5 @@
 # acompiler
-A compilation of EECS 665 (Compiler Construction) projects that will eventually build a compiler... hopefully.
+A compilation of EECS 665 (Compiler Construction) projects that build a compiler for the language drewnoMars created by professor Drew Davidson.
 Requirements to run:
   Linux Terminal(Preffered)
     Ubuntu in Windows Store - https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
