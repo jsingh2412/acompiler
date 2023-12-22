@@ -2,7 +2,7 @@
 A compilation of EECS 665 (Compiler Construction) projects that build a compiler for the language drewnoMars created by professor Drew Davidson.
 Requirements to run:
   Linux Terminal(Preffered)
-    Ubuntu in Windows Store - https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
+  Ubuntu in Windows Store - https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
   Flex: a tool for generating lexical analyzers
     sudo apt install flex
   Bison: parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR (1) parser tables
